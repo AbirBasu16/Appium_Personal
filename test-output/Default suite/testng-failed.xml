@@ -3,14 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="myAppAndroid.myAppTestCases.TestCase_02">
+      <class name="myAppAndroid.myAppTestCases.TestCase_01">
         <methods>
-          <include name="navigate_Back"/>
+          <include name="verify_Content_Click"/>
+          <include name="verify_Preference_Click"/>
+          <include name="verify_Text_Click"/>
           <include name="wrapUp"/>
-          <include name="test_Case_Scroll"/>
+          <include name="navigate_Back"/>
+          <include name="verify_App_Click"/>
+          <include name="verify_Os_Click"/>
+          <include name="verify_Animation_Click"/>
+          <include name="verify_Views_Click"/>
           <include name="startUp"/>
+          <include name="verify_Nfc_Click"/>
+          <include name="verify_Accessibility_Click"/>
+          <include name="verify_Graphics_Click"/>
+          <include name="verify_Media_Click"/>
         </methods>
-      </class> <!-- myAppAndroid.myAppTestCases.TestCase_02 -->
+      </class> <!-- myAppAndroid.myAppTestCases.TestCase_01 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

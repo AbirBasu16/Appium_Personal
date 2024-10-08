@@ -30,7 +30,7 @@ public class TestBase {
 	public void startUp() throws MalformedURLException, URISyntaxException {
 		
 		//For Starting the server on desired IP address and port number...
-		service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\abrui\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
+		service = new AppiumServiceBuilder().withAppiumJS(new File("C:\\Users\\2327172\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\main.js"))
 					.withIPAddress("127.0.0.1").usingPort(4723).build();
 		
 		//Starting the service...
@@ -39,7 +39,7 @@ public class TestBase {
 		//For initializing the driver with device name and app name... 
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("Pixel8a");
-		options.setApp("C:\\Users\\abrui\\Desktop\\Eclipse Workplace\\Appium\\src\\test\\java\\myAppAndroid\\resources\\ApiDemos-debug.apk");
+		options.setApp("C:\\Users\\2327172\\OneDrive - Cognizant\\Desktop\\Eclipse Workplace\\Appium_Personal\\src\\test\\java\\myAppAndroid\\resources\\ApiDemos-debug.apk");
 		
 		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 		
